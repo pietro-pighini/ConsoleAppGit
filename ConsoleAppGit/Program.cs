@@ -5,8 +5,9 @@
         static void Main(string[] args)
         {
             Dado d = new Dado();
-            int valore = d.LanciaDado();
-            Console.WriteLine(valore);
+            int valore1 = d.LanciaDado();
+            int valore2 = d.LanciaDado();
+            Console.WriteLine($"{valore1} {valore2}");
         }
     }
 }
